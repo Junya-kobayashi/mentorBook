@@ -15,6 +15,10 @@
 		F6126F791F6A8E4F002DC990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6126F771F6A8E4F002DC990 /* LaunchScreen.storyboard */; };
 		F6126F841F6A8E50002DC990 /* mentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6126F831F6A8E50002DC990 /* mentorBookTests.swift */; };
 		F6126F8F1F6A8E50002DC990 /* mentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6126F8E1F6A8E50002DC990 /* mentorBookUITests.swift */; };
+		F6126FA01F6A8E74002DC990 /* aguri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6126F9D1F6A8E74002DC990 /* aguri.jpg */; };
+		F6126FA11F6A8E74002DC990 /* hashio.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F6126F9E1F6A8E74002DC990 /* hashio.JPG */; };
+		F6126FA21F6A8E74002DC990 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F6126F9F1F6A8E74002DC990 /* taithi.JPG */; };
+		F6126FA41F6A916D002DC990 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6126FA31F6A916D002DC990 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F6126F8A1F6A8E50002DC990 /* mentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6126F8E1F6A8E50002DC990 /* mentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentorBookUITests.swift; sourceTree = "<group>"; };
 		F6126F901F6A8E50002DC990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6126F9D1F6A8E74002DC990 /* aguri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aguri.jpg; sourceTree = "<group>"; };
+		F6126F9E1F6A8E74002DC990 /* hashio.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hashio.JPG; sourceTree = "<group>"; };
+		F6126F9F1F6A8E74002DC990 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		F6126FA31F6A916D002DC990 /* Mentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mentor.swift; path = ../Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		F6126F5F1F6A8E4F002DC990 = {
 			isa = PBXGroup;
 			children = (
+				F6126F9C1F6A8E74002DC990 /* images */,
 				F6126F6A1F6A8E4F002DC990 /* mentorBook */,
 				F6126F821F6A8E50002DC990 /* mentorBookTests */,
 				F6126F8D1F6A8E50002DC990 /* mentorBookUITests */,
@@ -104,6 +113,7 @@
 				F6126F6F1F6A8E4F002DC990 /* Main.storyboard */,
 				F6126F751F6A8E4F002DC990 /* Assets.xcassets */,
 				F6126F771F6A8E4F002DC990 /* LaunchScreen.storyboard */,
+				F6126FA31F6A916D002DC990 /* Mentor.swift */,
 				F6126F7A1F6A8E4F002DC990 /* Info.plist */,
 				F6126F721F6A8E4F002DC990 /* mentorBook.xcdatamodeld */,
 			);
@@ -126,6 +136,16 @@
 				F6126F901F6A8E50002DC990 /* Info.plist */,
 			);
 			path = mentorBookUITests;
+			sourceTree = "<group>";
+		};
+		F6126F9C1F6A8E74002DC990 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F6126F9D1F6A8E74002DC990 /* aguri.jpg */,
+				F6126F9E1F6A8E74002DC990 /* hashio.JPG */,
+				F6126F9F1F6A8E74002DC990 /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6126FA01F6A8E74002DC990 /* aguri.jpg in Resources */,
 				F6126F791F6A8E4F002DC990 /* LaunchScreen.storyboard in Resources */,
+				F6126FA21F6A8E74002DC990 /* taithi.JPG in Resources */,
+				F6126FA11F6A8E74002DC990 /* hashio.JPG in Resources */,
 				F6126F761F6A8E4F002DC990 /* Assets.xcassets in Resources */,
 				F6126F711F6A8E4F002DC990 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6126FA41F6A916D002DC990 /* Mentor.swift in Sources */,
 				F6126F741F6A8E4F002DC990 /* mentorBook.xcdatamodeld in Sources */,
 				F6126F6E1F6A8E4F002DC990 /* ViewController.swift in Sources */,
 				F6126F6C1F6A8E4F002DC990 /* AppDelegate.swift in Sources */,
